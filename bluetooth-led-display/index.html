@@ -16,7 +16,7 @@ limitations under the License.
 -->
 <html>
   <head>
-    <title>LED Display</title>
+    <title>LED显示屏</title>
     <meta name="description" content="Light up an LED Display with Web Bluetooth.">
 
     <meta charset="utf-8">
@@ -99,7 +99,7 @@ limitations under the License.
       <div id="cards">
         <paper-card heading="LED Display">
           <div class="card-content">
-            <paper-toggle-button class="blue" id="connect">Connect</paper-toggle-button>
+            <paper-toggle-button class="blue" id="connect">连接</paper-toggle-button>
             <paper-progress id="progress" indeterminate></paper-progress>
           </div>
         </paper-card>
@@ -208,13 +208,13 @@ limitations under the License.
 
         <paper-dialog id="no-bluetooth">
           <h2>No Web Bluetooth</h2>
-          <p>The Web Bluetooth API is missing. Please enable it at
+          <p>缺少Web蓝牙API。 请在启用它
           chrome://flags/#enable-web-bluetooth and try again.</p>
         </paper-dialog>
 
         <paper-dialog id="errorDialog">
           <h2>Error</h2>
-          <p>Could not connect to bluetooth device!</p>
+          <p>无法连接到蓝牙设备!</p>
         </paper-dialog>
       </div>
     </template>
